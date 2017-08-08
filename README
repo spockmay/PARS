@@ -1,0 +1,9 @@
+This project is designed to study PAP adherence predictors based on respiratory signal analysis. Breathing irregularity
+is predictive of adherence.  We are looking to expand on and develop new models to predict long-term PAP adherence using
+analysis of respiratory signals captured from diagnostic sleep studies.
+
+Code documentation is available via sphinx at:
+https://spockmay.github.io/PARS/html/index.html
+
+The data from sleep studies is stored in the European Data Format (EDF) files. These are read using
+pyEDFlib v0.1.9 <https://github.com/holgern/pyedflib> with a very light wrapper.
